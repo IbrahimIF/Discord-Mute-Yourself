@@ -1,2 +1,78 @@
-# Discord-Mute-Yourself
-A python project that Mutes and unmutes your microphone on discord, using voice detection
+
+# Discord Mute Yourself
+
+![Project Status](https://img.shields.io/badge/status-in_progress-Green)
+
+![Static Badge](https://img.shields.io/badge/made_with-python-blue)
+
+##### **Description**:
+Discord Mute Yourself is a Python-based project designed to enhance your Discord experience by automatically muting users in a voice channel when specific keywords are detected. Whether it's you or others in the channel saying phrases like "mute" or "[name] mute yourself," this bot will ensure the user is muted instantly. This tool is perfect for streamers, moderators, or anyone who wants to maintain a controlled environment in their Discord voice channels.
+
+Inspired by the need for automated voice channel moderation, this project aims to simplify voice management on Discord.
+
+-----
+
+## Getting Started:
+
+To run this project locally, you'll need to have Node.js and npm installed on your computer. Once you have these installed, follow these steps:
+
+**1. Clone the repository:**
+
+```
+> git clone <repository-url>
+```
+
+**2. Navigate to the project directory using the command line.**
+
+**3. Install dependencies:**
+
+```
+> pip install -r requirements.txt
+```
+
+**4. Configure the bot:**
+
+```
+> Rename config.example.json to config.json.
+
+> Add your Discord bot token and configure the keywords you want the bot to listen for.
+```
+
+**5. Run the bot:**
+
+```
+> python main.py
+```
+
+----
+## Demo:
+Below is a demo of the bot in action:
+[YouTube Demo](Placeholder link)
+
+----
+## Features:
+This project includes:
+- Keyword Detection: Automatically mutes users when specific keywords are detected.
+- Voice Activity Monitoring: Listens to both the user and other participants in the voice channel.
+- Customizable Keywords: Configure the bot to listen for any phrase or word.
+- Real-Time Muting: Instantly mutes the user without manual intervention.
+- Cross-Platform Support: Works on Windows, macOS, and Linux.
+
+Additional Features That Could Be Added:
+- Unmute Functionality: Automatically unmute after a set period.
+- Logging: Log muted users and detected keywords for moderation purposes.
+- Multi-Language Support: Detect keywords in multiple languages.
+- User Whitelist: Allow certain users to bypass the mute functionality.
+- Integration with Discord Roles: Mute users based on their roles.
+
+----
+## Technologies and Tools Utilised:
+
+[![My Skills](https://skillicons.dev/icons?i=python,discord,git,github,vscode)](https://skillicons.dev)
+
+---
+
+## Acknowledgment:
+- [PyAudio](https://pypi.org/project/PyAudio/)
+- [Discord.py Documentation](https://discordpy.readthedocs.io/en/stable/)
+---
