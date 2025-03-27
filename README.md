@@ -1,5 +1,6 @@
+![image](https://github.com/user-attachments/assets/3f8c8aa2-0dd8-41a4-a12e-60c4b830fc32)
 
-# Discord Mute Yourself
+
 
 ![Project Status](https://img.shields.io/badge/status-in_progress-Green)
 
