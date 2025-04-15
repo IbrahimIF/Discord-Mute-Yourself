@@ -64,4 +64,6 @@ Additional Features That Could Be Added:
 ## Acknowledgment:
 - [PyAudio](https://pypi.org/project/PyAudio/)
 - [Discord.py Documentation](https://discordpy.readthedocs.io/en/stable/)
----[PyAudioWPatch](https://github.com/s0d3s/PyAudioWPatch)
+- [PyAudioWPatch](https://github.com/s0d3s/PyAudioWPatch)
+---
+
